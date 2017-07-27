@@ -140,6 +140,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Kategoria.cs" />
+    <Compile Include="Models\OpoznieniaPamieci.cs" />
+    <Compile Include="Models\Pamiec.cs" />
+    <Compile Include="Models\Procesor.cs" />
+    <Compile Include="Models\Producent.cs" />
+    <Compile Include="Models\SzybkoscPamieci.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -159,7 +165,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
